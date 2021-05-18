@@ -2,6 +2,19 @@ html, body {
   margin: 0;
   padding: 0;
 }
-canvas {
-  display: block;
+
+canvas { display:block; }
+@media only screen and (orientation:portrait){
+  body {  
+    height: 100vw;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+}
+@media only screen and (orientation:lanscape){  
+     body {-webkit-transform: rotate(0deg);
+     -ms-transform: rotate(0deg);
+     transform: rotate(0deg);
+  }
 }
