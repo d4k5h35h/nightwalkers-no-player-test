@@ -6,7 +6,7 @@ html, body {
 body { display:block; }
 @media only screen and (orientation:portrait){
   body {  
-    height: 100vw;
+    height: auto;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
