@@ -4,5 +4,15 @@ html, body {
 }
 
 canvas {
+  position: relative;
+}
+
+#p5_loading {
+  background-color: black;
+  color: black;
+  box-sizing: border-box;
   display: block;
+  position: absolute;
+  height: 1080px;
+  width: 1920px;
 }
